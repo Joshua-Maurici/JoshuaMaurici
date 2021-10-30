@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/src/img/code06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(6px); }
+
+.nav-bar {
+  padding: 1em;
+  height: 80%;
+  width: 100%; }
+  .nav-bar nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+  .nav-bar a nav {
+    color: khaki; }
+
+/*# sourceMappingURL=projects.css.map */
