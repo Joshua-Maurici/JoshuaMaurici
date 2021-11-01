@@ -1,44 +1,75 @@
+// html {
+//     height: 100%;
+// }
 
 body  {
-    
-    height:100vh;
-    width:100vw;
     margin:0;
     padding:0;
+    height:100%;
     font-family: 'Roboto', sans-serif;
     background-image: url(/src/img/code06.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
-    backdrop-filter: $blur-filter; 
+    background-repeat: repeat;
+    backdrop-filter: blur(10px); 
+    
 }
 
     
-.title-name {
-    margin-top: 3%;
-    color: white;
+.title-heading {
     display: flex;
     justify-content: center;
-    font-size: 10vh;
+    flex-direction: column;
+    align-items:center;
+    
+        .name-title {
+            color: white;
+            font-weight: bold;
+            font-size: 6vw;
+            margin: 15px 0 0 0;
+        }
+        .dev-title {
+            color: white;
+            font-weight: bold;
+            font-size: 3vw;
+            margin: 0 0 10px 0;
+        }
     
 }
 
 .home-nav-bar {
     
-        // padding: 1em;
-        height:80%;
-        width:auto;   
-    nav {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    a nav {
-        color:khaki
-    }    
+    font-size: 25px;
+    font-weight: bold;
+        nav {
+            height: 76vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+            
 }
+//navbar Link styling including hover function
+nav a:link{
+    color: red;
+    text-decoration: none;
+    padding: 1% 2% 1% 2%;
+}
+nav a:visited {
+    color: blue;
+}
+nav a:hover {
+    color:khaki;
+    background-color: #bab7c4;
+    opacity: 0.1;
+    border-radius: 8px;
+    box-shadow: inherit white;
+    
+}    
+nav a:active{
+    color: purple;
+}
+
 
 p {
     margin: 0px;
@@ -48,8 +79,11 @@ p {
 
 
 footer {
+    height: 10vh;
     display:flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     
     
 }
