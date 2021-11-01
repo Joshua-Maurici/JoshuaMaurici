@@ -1,8 +1,3 @@
-// html {
-//     backdrop-filter: blur(6px);
-
-// }
-
 
 body  {
     
@@ -14,12 +9,12 @@ body  {
     background-image: url(/src/img/code06.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(6px); 
+    backdrop-filter: $blur-filter; 
 }
 
     
 .title-name {
-    // margin-top: 5px;
+    margin-top: 3%;
     color: white;
     display: flex;
     justify-content: center;
@@ -27,11 +22,11 @@ body  {
     
 }
 
-.nav-bar {
+.home-nav-bar {
     
-        padding: 1em;
+        // padding: 1em;
         height:80%;
-        width:100%;   
+        width:auto;   
     nav {
         height: 100%;
         width: 100%;
@@ -55,7 +50,7 @@ p {
 footer {
     display:flex;
     justify-content: space-evenly;
-    backdrop-filter: blur(6px);
+    
     
 }
 
