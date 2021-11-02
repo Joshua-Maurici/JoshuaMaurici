@@ -1,5 +1,11 @@
 @import "nav";
-
+@mixin flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 #contact-title {
     margin: 0;
@@ -10,3 +16,20 @@
 }
 
 
+.form-container {
+    height: 80vh;
+    @include flex-column;
+    .form {
+        // margin:3px;
+        @include flex-column;
+    }
+    label {
+        margin:5px;
+        @include flex-column;
+    }
+    // button {
+    //     size:;
+    // }
+    
+    
+}

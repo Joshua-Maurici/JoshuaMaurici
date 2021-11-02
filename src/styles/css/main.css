@@ -3,7 +3,7 @@ body {
   padding: 0;
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  background-image: url(/src/img/code06.jpg);
+  background-image: url(/img/code06.jpg);
   background-size: cover;
   background-repeat: repeat;
   backdrop-filter: blur(10px); }
@@ -59,7 +59,7 @@ footer {
   height: 10vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center; }
 
 .nav-bar {
@@ -235,5 +235,26 @@ nav a:active {
   display: flex;
   justify-content: center;
   font-size: 10vh; }
+
+.form-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .form-container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .form-container label {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap; }
 
 /*# sourceMappingURL=main.css.map */
