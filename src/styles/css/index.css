@@ -1,11 +1,16 @@
+html {
+  background: url(/img/code06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  background-image: url(/img/code06.jpg);
-  background-size: cover;
-  background-repeat: repeat;
   backdrop-filter: blur(10px); }
 
 .title-heading {
@@ -52,11 +57,9 @@ nav a:hover {
 nav a:active {
   color: purple; }
 
-p {
-  margin: 0px; }
-
 footer {
   height: 10vh;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
