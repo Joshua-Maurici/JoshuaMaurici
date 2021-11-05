@@ -9,28 +9,26 @@
     font-weight: bold;
 }
 
-
+.project-container {
+    height: 100vh;
 // Project picture style
-.project-images {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:space-around;
-    align-self: center;
-    
-    height: 70vh;
-    // overflow: scroll;
-}
-.projects  {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-
-    width: 10vw;
-    
+    .project-images {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-around;
+        align-self: center;
+        
+        height: 70vh;
+        // overflow: scroll;
+    }
+    .projects  {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
     }
     .project-thumbnails {
-        
         height:150px;
         width: 150px;
         border-radius: 10px;
@@ -39,5 +37,7 @@
     h5 {
         text-align: center;
     }
+}
+
 
 

@@ -8,12 +8,15 @@
     font-size: 10vh;
 }
 
-
-.about-content {
-    display: flex;
-    align-content: center;
-    margin: 5% 5% 5% 5%;
-    color: khaki;
+.about-container{
+    height: 100vh;
+    .about-content {
+        height: 100%;
+        display: flex;
+        align-content: center;
+        margin: 5% 5% 5% 5%;
+        color: khaki;
+    }
     .profile-pic {
         height: 300px;
         width: 300px;
@@ -30,5 +33,6 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-}
+
+}   
 
