@@ -28,13 +28,13 @@ body  {
     align-items:center;
     
         .name-title {
-            color: white;
+            color: #d1e8e2;
             font-weight: bold;
             font-size: 6vw;
             margin: 15px 0 0 0;
         }
         .dev-title {
-            color: white;
+            color: #d1e8e2;
             font-weight: bold;
             font-size: 3vw;
             margin: 0 0 10px 0;
@@ -57,26 +57,31 @@ body  {
 }
 //navbar Link styling including hover function
 nav a:link{
-    color: red;
+    background-color: #116466;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: #ffcb9a;
+    border-width: medium;
     text-decoration: none;
+    text-align: center;
     font-weight: bold;
+    width: 120px;
     padding: 1% 2% 1% 2%;
 }
 nav a:visited {
     text-decoration: none;
-    // color: blue;
+    color: #d1e8e2;
 }
 nav a:hover {
-    color:khaki;
-    background-color: #bab7c4;
-    opacity: 0.1;
-    border-radius: 8px;
-    box-shadow: inherit white;
-    
+    color: #ffcb9a;
+    border-color: #ffcb9a;
+    // background-color: #d1e8e2;
+    transition: 0.2s;
+    transform: scale(1.5);
 }    
-nav a:active{
-    color: purple;
-}
+// nav a:active{
+//     color: #d1e8e2;
+// }
 
 #footer-container {
         display: flex;  

@@ -8,25 +8,6 @@
     justify-content: space-evenly;
     align-items: center; }
 
-nav a:link {
-  color: red;
-  text-decoration: none;
-  padding: 1% 2% 1% 2%;
-  font-weight: 900; }
-
-nav a:visited {
-  color: none; }
-
-nav a:hover {
-  color: khaki;
-  background-color: #544e6d;
-  opacity: 0.6;
-  border-radius: 8px;
-  box-shadow: inherit white; }
-
-nav a:active {
-  color: #00ff73; }
-
 #contact-title {
   margin: 0;
   color: white;
