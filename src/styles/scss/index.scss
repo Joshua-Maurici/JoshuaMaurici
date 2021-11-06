@@ -26,12 +26,15 @@ body  {
     justify-content: center;
     flex-direction: column;
     align-items:center;
+    margin-bottom: 20px;
+    
     
         .name-title {
             color: #d1e8e2;
             font-weight: bold;
             font-size: 6vw;
             margin: 15px 0 0 0;
+            
         }
         .dev-title {
             color: #d1e8e2;
@@ -56,7 +59,7 @@ body  {
             
 }
 //navbar Link styling including hover function
-nav a:link{
+.nav-index a:link{
     background-color: #116466;
     border-style: ridge;
     border-radius: 10px;
@@ -68,18 +71,18 @@ nav a:link{
     width: 120px;
     padding: 1% 2% 1% 2%;
 }
-nav a:visited {
+.nav-index a:visited {
     text-decoration: none;
     color: #d1e8e2;
 }
-nav a:hover {
+.nav-index a:hover {
     color: #ffcb9a;
     border-color: #ffcb9a;
     // background-color: #d1e8e2;
     transition: 0.2s;
     transform: scale(1.5);
 }    
-// nav a:active{
+// .nav-index a:active{
 //     color: #d1e8e2;
 // }
 
