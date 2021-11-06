@@ -27,4 +27,22 @@ nav a:hover {
 nav a:active {
   color: #00ff73; }
 
-/*# sourceMappingURL=nav.css.map */
+.blog-container {
+  margin: 0 25% 0 25%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .blog-container h2 {
+    color: #ffcb9a; }
+  .blog-container h5, .blog-container p {
+    color: #d9b08c;
+    text-align: justify;
+    margin: 0 0 20px 0; }
+  .blog-container img {
+    height: 30%;
+    width: 30%;
+    margin: 0 0 20px 0; }
+
+/*# sourceMappingURL=blog-posts.css.map */

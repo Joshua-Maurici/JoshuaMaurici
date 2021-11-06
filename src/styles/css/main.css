@@ -1,17 +1,13 @@
+@import url(../css/blog-posts.css);
 html {
-  background: url(/img/code06.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: center;
-  background-attachment: fixed;
-  background-size: cover; }
+  background: #116466;
+  background: radial-gradient(circle, #116466 0%, #181919 87%); }
 
 body {
   margin: 0;
   padding: 0;
   height: auto;
-  font-family: 'Roboto', sans-serif;
-  backdrop-filter: blur(10px); }
+  font-family: 'Roboto', sans-serif; }
 
 .title-heading {
   display: flex;
@@ -30,8 +26,7 @@ body {
     margin: 0 0 10px 0; }
 
 .home-nav-bar {
-  font-size: 25px;
-  font-weight: bold; }
+  font-size: 25px; }
   .home-nav-bar nav {
     height: 76vh;
     display: flex;
@@ -42,10 +37,11 @@ body {
 nav a:link {
   color: red;
   text-decoration: none;
+  font-weight: bold;
   padding: 1% 2% 1% 2%; }
 
 nav a:visited {
-  color: blue; }
+  text-decoration: none; }
 
 nav a:hover {
   color: khaki;
@@ -57,31 +53,44 @@ nav a:hover {
 nav a:active {
   color: purple; }
 
-footer {
-  height: 10vh;
-  color: white;
+#footer-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
+  color: #d1e8e2;
+  height: 10vh; }
+  #footer-container .social-icons img {
+    background: #d1e8e2;
+    border-style: solid;
+    border-color: #d1e8e2;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px; }
+  #footer-container .copyright {
+    display: flex;
+    justify-content: flex-end;
+    color: #d1e8e2;
+    padding: 0 0 0 20%; }
 
 .nav-bar {
   font-size: inherit; }
   .nav-bar nav {
     height: 5%;
+    margin-bottom: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    font-weight: bold; }
+    align-items: center; }
 
 nav a:link {
   color: red;
   text-decoration: none;
-  padding: 1% 2% 1% 2%; }
+  padding: 1% 2% 1% 2%;
+  font-weight: 900; }
 
 nav a:visited {
-  color: blue; }
+  color: none; }
 
 nav a:hover {
   color: khaki;
@@ -106,7 +115,7 @@ nav a:active {
     height: 100%;
     display: flex;
     align-content: center;
-    margin: 5% 5% 5% 5%;
+    margin: 0% 5% 0% 5%;
     color: khaki; }
   .about-container .profile-pic {
     height: 300px;
@@ -127,19 +136,20 @@ nav a:active {
   font-size: inherit; }
   .nav-bar nav {
     height: 5%;
+    margin-bottom: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    font-weight: bold; }
+    align-items: center; }
 
 nav a:link {
   color: red;
   text-decoration: none;
-  padding: 1% 2% 1% 2%; }
+  padding: 1% 2% 1% 2%;
+  font-weight: 900; }
 
 nav a:visited {
-  color: blue; }
+  color: none; }
 
 nav a:hover {
   color: khaki;
@@ -166,6 +176,7 @@ nav a:active {
   #blog-posts .blog-titles {
     color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 20px 0 20px 0; }
   #blog-posts .blog-thumbnail {
@@ -183,19 +194,20 @@ nav a:active {
   font-size: inherit; }
   .nav-bar nav {
     height: 5%;
+    margin-bottom: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    font-weight: bold; }
+    align-items: center; }
 
 nav a:link {
   color: red;
   text-decoration: none;
-  padding: 1% 2% 1% 2%; }
+  padding: 1% 2% 1% 2%;
+  font-weight: 900; }
 
 nav a:visited {
-  color: blue; }
+  color: none; }
 
 nav a:hover {
   color: khaki;
@@ -241,19 +253,20 @@ nav a:active {
   font-size: inherit; }
   .nav-bar nav {
     height: 5%;
+    margin-bottom: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    font-weight: bold; }
+    align-items: center; }
 
 nav a:link {
   color: red;
   text-decoration: none;
-  padding: 1% 2% 1% 2%; }
+  padding: 1% 2% 1% 2%;
+  font-weight: 900; }
 
 nav a:visited {
-  color: blue; }
+  color: none; }
 
 nav a:hover {
   color: khaki;

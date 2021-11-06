@@ -2,19 +2,20 @@
   font-size: inherit; }
   .nav-bar nav {
     height: 5%;
+    margin-bottom: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    font-weight: bold; }
+    align-items: center; }
 
 nav a:link {
   color: red;
   text-decoration: none;
-  padding: 1% 2% 1% 2%; }
+  padding: 1% 2% 1% 2%;
+  font-weight: 900; }
 
 nav a:visited {
-  color: blue; }
+  color: none; }
 
 nav a:hover {
   color: khaki;

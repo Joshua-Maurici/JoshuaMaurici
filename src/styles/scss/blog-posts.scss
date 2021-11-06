@@ -1,0 +1,25 @@
+@import "nav";
+
+.blog-container {
+    margin:0 25% 0 25%;
+    padding:0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: #ffcb9a;
+    }
+    h5, p{
+        color: #d9b08c;
+        text-align:justify;
+        margin: 0 0 20px 0;
+    }
+
+    img {
+        height: 30%;
+        width: 30%;
+        margin: 0 0 20px 0;
+    }
+}
