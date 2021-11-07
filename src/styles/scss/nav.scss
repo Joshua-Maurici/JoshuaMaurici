@@ -42,4 +42,14 @@ nav a:hover {
 //     border-color: #ffcb9a;
 //     transform: scale(1.2);
 // }
-  
+@media screen and (max-width: 420px) {
+    .nav-bar nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav a {
+        margin-bottom: 5px;
+    }
+}

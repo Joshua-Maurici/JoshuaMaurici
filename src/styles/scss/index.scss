@@ -97,6 +97,16 @@ body  {
 
   
 
-@media screen and (min-width: 600px) {
-
+@media screen and (max-width: 420px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .title-heading{
+        margin-bottom: 0;
+        .name-title {
+        font-size: 10vw;
+        }
+    }
 }
+

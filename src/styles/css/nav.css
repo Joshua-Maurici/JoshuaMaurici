@@ -35,4 +35,13 @@ nav a:hover {
   transition: 0.2s;
   transform: scale(1.2); }
 
+@media screen and (max-width: 420px) {
+  .nav-bar nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  nav a {
+    margin-bottom: 5px; } }
+
 /*# sourceMappingURL=nav.css.map */

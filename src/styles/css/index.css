@@ -76,4 +76,14 @@ body {
     color: #d1e8e2;
     padding: 0 0 0 20%; }
 
+@media screen and (max-width: 420px) {
+  body {
+    margin: 0;
+    padding: 0; }
+
+  .title-heading {
+    margin-bottom: 0; }
+    .title-heading .name-title {
+      font-size: 10vw; } }
+
 /*# sourceMappingURL=index.css.map */
