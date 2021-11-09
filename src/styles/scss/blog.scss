@@ -14,10 +14,11 @@
     align-items: center;
     color: white;
     .blog-titles {
+        width: 50%;
         color: white;
         display: flex;
         justify-content:center;
-        align-items: center;
+        align-items:center;
         margin: 20px 0 20px 0;
     }
     .blog-thumbnail {
@@ -28,9 +29,13 @@
         border-color: #ffcb9a;
         box-shadow: 2px 4px 6px #ffcb9a; 
     }
+    .blog-link {
+        width: 50%;
+    }
     a {
         color: white;
         padding: 0 0 0 20px;
+        // max-width: fit-content;
      }
 }
 
