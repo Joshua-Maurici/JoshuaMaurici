@@ -13,7 +13,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-self: center;
-    height: 70vh; }
+    height: 100vh; }
   .project-container .projects {
     display: flex;
     flex-flow: row wrap;
@@ -21,11 +21,20 @@
     align-items: center;
     width: 10vw; }
   .project-container .project-thumbnails {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
-    box-shadow: 5px 15px 25px black; }
+    box-shadow: 5px 10px 15px black; }
   .project-container h5 {
+    font-size: 1.5vw;
     text-align: center; }
+
+.projects a:link {
+  text-decoration: none;
+  color: blanchedalmond; }
+
+.projects a:visited {
+  text-decoration: none;
+  color: #ffcb9a; }
 
 /*# sourceMappingURL=projects.css.map */

@@ -7,7 +7,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: #d1e8e2; }
 
 .title-heading {
   display: flex;
@@ -143,18 +144,17 @@ body {
   color: white; }
   #blog-posts .blog-titles {
     width: 50%;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 20px 0; }
+    margin: 20px 0 20px 10%; }
   #blog-posts .blog-thumbnail {
     height: 150px;
     width: 150px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffcb9a;
-    box-shadow: 2px 4px 6px #ffcb9a; }
+    box-shadow: 2px 4px 6px black; }
   #blog-posts .blog-link {
     width: 50%; }
   #blog-posts a {
@@ -176,7 +176,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-around;
     align-self: center;
-    height: 70vh; }
+    height: 100vh; }
   .project-container .projects {
     display: flex;
     flex-flow: row wrap;
@@ -184,12 +184,21 @@ body {
     align-items: center;
     width: 10vw; }
   .project-container .project-thumbnails {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
-    box-shadow: 5px 15px 25px black; }
+    box-shadow: 5px 10px 15px black; }
   .project-container h5 {
+    font-size: 1.5vw;
     text-align: center; }
+
+.projects a:link {
+  text-decoration: none;
+  color: blanchedalmond; }
+
+.projects a:visited {
+  text-decoration: none;
+  color: #ffcb9a; }
 
 #contact-title {
   margin: 0;

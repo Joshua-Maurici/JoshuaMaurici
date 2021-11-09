@@ -6,7 +6,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: #d1e8e2; }
 
 .title-heading {
   display: flex;

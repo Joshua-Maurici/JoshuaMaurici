@@ -1,14 +1,16 @@
 
 .blog-container {
     margin:0 25% 0 25%;
-    padding:0;
+    padding:2.5%;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
 
     h2 {
-        color: #ffcb9a;
+       margin: auto;
+       color: #d1e8e2;
+       font-size: 5vw; 
     }
     h5, p{
         color: #d9b08c;
@@ -21,4 +23,29 @@
         width: 30%;
         margin: 0 0 20px 0;
     }
+}
+.button-container {
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%
+}
+.back-button {
+    height: 50px;
+    width: 100px;
+    background-color: #678788;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: #d1e8e2;
+    border-width: medium;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 1% 2% 1% 2%;
+    
+}
+
+.back-button:hover {
+    transform: scale(1.2);
 }

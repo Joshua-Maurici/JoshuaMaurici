@@ -16,9 +16,7 @@
         flex-flow: row wrap;
         justify-content:space-around;
         align-self: center;
-        
-        height: 70vh;
-        // overflow: scroll;
+        height: 100vh;
     }
     .projects  {
         display:flex;
@@ -28,15 +26,30 @@
         width: 10vw;
     }
     .project-thumbnails {
-        height:150px;
-        width: 150px;
+        height:300px;
+        width: 300px;
         border-radius: 10px;
-        box-shadow: 5px 15px 25px black;
+        box-shadow: 5px 10px 15px black;
     }
     h5 {
+        font-size: 1.5vw;
         text-align: center;
     }
 }
 
+.projects a:link {
+    text-decoration: none;
+    color: blanchedalmond;
+}
 
+.projects a:visited {
+    text-decoration: none;
+    color: #ffcb9a;
+}
 
+// .projects:hover {
+
+// }
+// .projects:active {
+
+// }

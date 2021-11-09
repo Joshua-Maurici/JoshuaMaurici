@@ -12,18 +12,17 @@
   color: white; }
   #blog-posts .blog-titles {
     width: 50%;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 20px 0; }
+    margin: 20px 0 20px 10%; }
   #blog-posts .blog-thumbnail {
     height: 150px;
     width: 150px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffcb9a;
-    box-shadow: 2px 4px 6px #ffcb9a; }
+    box-shadow: 2px 4px 6px black; }
   #blog-posts .blog-link {
     width: 50%; }
   #blog-posts a {
