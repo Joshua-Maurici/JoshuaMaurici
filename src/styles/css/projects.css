@@ -17,7 +17,7 @@
   .project-container .projects {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 10vw; }
   .project-container .project-thumbnails {
@@ -36,5 +36,10 @@
 .projects a:visited {
   text-decoration: none;
   color: #ffcb9a; }
+
+@media screen and (max-width: 420px) {
+  .project-thumbnails {
+    width: 150px !important;
+    height: 150px !important; } }
 
 /*# sourceMappingURL=projects.css.map */

@@ -15,7 +15,7 @@
     box-shadow: 2px 4px 6px #ffcb9a;
 }
 
-nav a:link{
+.nav-bar a:link{
     background-color: #116466;
     border-style: ridge;
     border-radius: 10px;
@@ -27,11 +27,11 @@ nav a:link{
     width: 120px;
     padding: 1% 2% 1% 2%;
 }
-nav a:visited {
+.nav-bar a:visited {
     text-decoration: none;
     color: #d1e8e2;
 }
-nav a:hover {
+.nav-bar a:hover {
     color: #ffcb9a;
     border-color: #ffcb9a;
     transition: 0.2s;

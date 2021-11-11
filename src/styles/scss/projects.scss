@@ -21,7 +21,7 @@
     .projects  {
         display:flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         width: 10vw;
     }
@@ -30,6 +30,7 @@
         width: 300px;
         border-radius: 10px;
         box-shadow: 5px 10px 15px black;
+        
     }
     h5 {
         font-size: 1.5vw;
@@ -51,6 +52,11 @@
 // .projects:active {
 // }
 
-@media screen and (max-width: 900px) {
-    
+
+
+@media  screen and (max-width:420px) {
+    .project-thumbnails{
+        width: 150px !important;
+        height: 150px !important;
+    }
 }

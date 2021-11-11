@@ -60,40 +60,36 @@ body {
   transition: 0.2s;
   transform: scale(1.5); }
 
-#footer-container {
+footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 10vh; }
-  #footer-container .social-icons img {
+  footer .social-icons img {
     background: #d1e8e2;
     border-style: solid;
     border-color: #d1e8e2;
     border-radius: 5px;
     height: 30px;
     width: 30px; }
-  #footer-container .copyright {
+  footer .copyright {
     display: flex;
     justify-content: flex-end;
     color: #d1e8e2;
     font-size: 20px;
     margin: 0; }
-  #footer-container .resume {
+  footer .resume {
     font-size: 20px; }
 
 .resume a:link {
+  color: #ffcb9a !important;
   text-decoration: none; }
 
 .resume a:visited {
-  text-decoration: none;
-  color: #d1e8e2; }
-
-.resume a:hover {
-  text-decoration: none;
-  color: #ffcb9a; }
+  color: #d1e8e2 !important; }
 
 .resume a:active {
-  text-decoration: none; }
+  color: #ffcb9a !important; }
 
 @media screen and (max-width: 420px) {
   body {
@@ -103,7 +99,11 @@ body {
   .title-heading {
     margin-bottom: 0; }
     .title-heading .name-title {
-      font-size: 10vw; } }
+      font-size: 10vw; }
+
+  h2 {
+    display: flex;
+    flex-direction: column; } }
 #about-title {
   margin: 20px 0 20px 0;
   color: white;
@@ -117,7 +117,7 @@ body {
     display: flex;
     align-content: center;
     margin: 10% 5% 10% 5%;
-    color: khaki; }
+    color: #d9b08c; }
   .about-container .profile-pic {
     height: 300px;
     width: 300px;
@@ -197,7 +197,7 @@ body {
   .project-container .projects {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 10vw; }
   .project-container .project-thumbnails {
@@ -217,6 +217,10 @@ body {
   text-decoration: none;
   color: #ffcb9a; }
 
+@media screen and (max-width: 420px) {
+  .project-thumbnails {
+    width: 150px !important;
+    height: 150px !important; } }
 #contact-title {
   margin: 0;
   color: white;
@@ -260,7 +264,7 @@ body {
   border-color: #ffcb9a;
   box-shadow: 2px 4px 6px #ffcb9a; }
 
-nav a:link {
+.nav-bar a:link {
   background-color: #116466;
   border-style: ridge;
   border-radius: 10px;
@@ -272,11 +276,11 @@ nav a:link {
   width: 120px;
   padding: 1% 2% 1% 2%; }
 
-nav a:visited {
+.nav-bar a:visited {
   text-decoration: none;
   color: #d1e8e2; }
 
-nav a:hover {
+.nav-bar a:hover {
   color: #ffcb9a;
   border-color: #ffcb9a;
   transition: 0.2s;
