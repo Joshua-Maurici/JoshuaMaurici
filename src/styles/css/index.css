@@ -1,6 +1,10 @@
 html {
   background: #116466;
-  background: radial-gradient(circle, #116466 0%, #181919 87%); }
+  background: radial-gradient(circle, #116466 0%, #181919 87%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0; }
 
 body {
   margin: 0;

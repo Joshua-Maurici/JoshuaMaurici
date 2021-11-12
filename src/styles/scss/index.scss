@@ -1,12 +1,10 @@
 html { 
     background: rgb(17,100,102);
     background: radial-gradient(circle, rgba(17,100,102,1) 0%, rgba(24,25,25,1) 87%);
-    // background: url(/img/code03.jpg);
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-origin: center;
-    // // background-attachment: fixed;
-    // background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
 }
 body  {
     margin:0;
