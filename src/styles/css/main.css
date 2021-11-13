@@ -175,6 +175,19 @@ footer {
 #blog-posts a:hover {
   color: #ffcb9a; }
 
+@media screen and (max-width: 420px) {
+  #blog-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%; }
+    #blog-posts .blog-titles {
+      display: flex;
+      flex-direction: column;
+      margin: 0; }
+    #blog-posts a:link {
+      width: 90%;
+      padding: 0; } }
 #projects-title {
   margin: 0;
   color: white;
