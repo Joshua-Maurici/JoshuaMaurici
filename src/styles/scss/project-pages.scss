@@ -1,0 +1,46 @@
+.project-page-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 2.5%;
+    .project-pictures {
+        margin: 0 1%  1%;
+    }
+    .project-pictures > img {
+        height: auto;
+        width: 20vw;
+        margin: 1%;
+        border-style:outset;
+        border-color: rgb(95, 93, 91);
+        border-radius: 10px;
+    }
+
+}
+
+.project-heading {
+    display: flex;
+    justify-content: center;
+    color: #d9b08c;
+    text-shadow: 5% 10% black;
+}
+.project-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 61vw 1% 0;
+}  
+
+// .project-heading > h1 {
+//     display: flex;
+//     justify-content: center;
+//     color: #d9b08c;
+//     text-shadow: 5% 10% black;
+// }
+
+.project-pictures:hover {
+    transition: 0.2s;
+    transform: scale(1.4);
+    
+}

@@ -36,27 +36,6 @@ html, body {
     justify-content: space-evenly;
     align-items: center; }
 
-.nav-index a:link {
-  background-color: #116466;
-  border-style: ridge;
-  border-radius: 10px;
-  color: #d1e8e2;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  width: 120px;
-  padding: 1% 2% 1% 2%; }
-
-.nav-index a:visited {
-  text-decoration: none;
-  color: #d1e8e2; }
-
-.nav-index a:hover {
-  color: #ffcb9a;
-  border-color: #ffcb9a;
-  transition: 0.2s;
-  transform: scale(1.5); }
-
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -78,12 +57,33 @@ footer {
   footer .resume {
     font-size: 2vh; }
 
+.nav-index a:link {
+  background-color: #116466;
+  border-style: ridge;
+  border-radius: 10px;
+  color: #d1e8e2;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  width: 120px;
+  padding: 1% 2% 1% 2%; }
+
+.nav-index a:visited {
+  text-decoration: none;
+  color: #d1e8e2; }
+
+.nav-index a:hover {
+  color: #ffcb9a;
+  border-color: #ffcb9a;
+  transition: 0.2s;
+  transform: scale(1.5); }
+
 .resume a:link {
   color: #ffcb9a !important;
   text-decoration: none; }
 
 .resume a:visited {
-  color: #d1e8e2 !important; }
+  color: #ffcb9a !important; }
 
 .resume a:active {
   color: #ffcb9a !important; }
@@ -177,9 +177,6 @@ footer {
 
 @media screen and (max-width: 420px) {
   #blog-posts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 10%; }
     #blog-posts .blog-titles {
       display: flex;
@@ -304,5 +301,37 @@ footer {
 
   nav a {
     margin-bottom: 5px; } }
+.project-page-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 2.5%; }
+  .project-page-container .project-pictures {
+    margin: 0 1%  1%; }
+  .project-page-container .project-pictures > img {
+    height: auto;
+    width: 20vw;
+    margin: 1%;
+    border-style: outset;
+    border-color: #5f5d5b;
+    border-radius: 10px; }
+
+.project-heading {
+  display: flex;
+  justify-content: center;
+  color: #d9b08c;
+  text-shadow: 5% 10% black; }
+
+.project-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 61vw 1% 0; }
+
+.project-pictures:hover {
+  transition: 0.2s;
+  transform: scale(1.4); }
 
 /*# sourceMappingURL=main.css.map */

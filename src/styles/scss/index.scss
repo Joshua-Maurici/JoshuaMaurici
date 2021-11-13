@@ -29,6 +29,7 @@ html, body  {
             margin: 0 0 10px 0;
         }
 }
+
 .home-nav-bar {
     font-size: 25px;
         nav {
@@ -39,31 +40,7 @@ html, body  {
             align-items: center;
         }
 }
-//navbar Link styling including hover function
-.nav-index a:link{
-    background-color: #116466;
-    border-style: ridge;
-    border-radius: 10px;
-    color: #d1e8e2;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    width: 120px;
-    padding: 1% 2% 1% 2%;
-}
-.nav-index a:visited {
-    text-decoration: none;
-    color: #d1e8e2;
-}
-.nav-index a:hover {
-    color: #ffcb9a;
-    border-color: #ffcb9a;
-    transition: 0.2s;
-    transform: scale(1.5);
-}    
-// .nav-index a:active{
-//     color: #d1e8e2;
-// }
+
 footer {
         display: flex;  
         justify-content: space-evenly;
@@ -88,25 +65,40 @@ footer {
     .resume {
         font-size: 2vh;
     }
-    
 }
-
-
+//navbar Link styling including hover function
+.nav-index a:link{
+    background-color: #116466;
+    border-style: ridge;
+    border-radius: 10px;
+    color: #d1e8e2;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    padding: 1% 2% 1% 2%;
+}
+.nav-index a:visited {
+    text-decoration: none;
+    color: #d1e8e2;
+}
+.nav-index a:hover {
+    color: #ffcb9a;
+    border-color: #ffcb9a;
+    transition: 0.2s;
+    transform: scale(1.5);
+}    
 
 .resume a:link {
     color: #ffcb9a !important;
     text-decoration: none;
 }
 .resume a:visited {
-    color: #d1e8e2 !important;
+    color: #ffcb9a !important;
 }
-// .resume a:hover {
-//     color: #d1e8e2;
-// }
 .resume a:active {
     color: #ffcb9a !important;
 }
-  
 
 @media screen and (max-width: 420px) { 
     body {
@@ -123,9 +115,6 @@ footer {
         display:flex;
         flex-direction: column;
     }
-    // footer {
-    //     height: 0
-    // }
 }
 
 

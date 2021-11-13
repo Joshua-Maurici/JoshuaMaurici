@@ -42,9 +42,6 @@
 
 @media screen and (max-width: 420px) {
     #blog-posts {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         margin-top: 10%;
         .blog-titles {
             display:flex;
