@@ -7,33 +7,33 @@
   font-weight: bold; }
 
 .project-container {
-  height: 100vh; }
-  .project-container .project-images {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-self: center;
-    height: 100vh; }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 80vh;
+  overflow: scroll; }
   .project-container .projects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 10vw; }
-  .project-container .project-thumbnails {
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 5px 10px 15px black; }
-  .project-container h5 {
-    font-size: 1.5vw;
-    text-align: center; }
+    margin: 5%; }
+    .project-container .projects .project-thumbnails {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 5%;
+      height: 300px;
+      width: 300px;
+      border-radius: 20px;
+      border-style: solid;
+      box-shadow: 5px 15px 25px black; }
+    .project-container .projects h5 {
+      font-size: 3vh;
+      text-align: center; }
 
-.projects a:link {
+.projects > a:link {
   text-decoration: none;
   color: blanchedalmond; }
 
-.projects a:visited {
+.projects > a:visited {
   text-decoration: none;
   color: #ffcb9a; }
 

@@ -1,5 +1,6 @@
 .nav-bar {
-  font-size: inherit; }
+  font-size: inherit;
+  margin-bottom: 10%; }
   .nav-bar nav {
     height: 5%;
     margin-bottom: 1.5%;
