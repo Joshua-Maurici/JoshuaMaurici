@@ -1,8 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   font-family: 'Roboto', sans-serif;
   background: #116466;
   background: radial-gradient(circle, #116466 0%, #181919 87%);
@@ -18,7 +18,7 @@ html, body {
   .title-heading .name-title {
     color: #d1e8e2;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 100px;
     margin: 15px 0 0 0; }
   .title-heading .dev-title {
     color: #d1e8e2;
@@ -27,8 +27,6 @@ html, body {
     margin: 0 0 10px 0; }
 
 .home-nav-bar {
-  display: flex;
-  flex-direction: column;
   font-size: 25px; }
   .home-nav-bar nav {
     height: 76vh;
@@ -41,8 +39,7 @@ html, body {
   background-color: #116466;
   border-style: ridge;
   border-radius: 10px;
-  border-color: #ffcb9a;
-  border-width: medium;
+  color: #d1e8e2;
   text-decoration: none;
   text-align: center;
   font-weight: bold;

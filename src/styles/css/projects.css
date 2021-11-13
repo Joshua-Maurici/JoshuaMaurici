@@ -9,9 +9,7 @@
 .project-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  height: 80vh;
-  overflow: scroll; }
+  justify-content: center; }
   .project-container .projects {
     margin: 5%; }
     .project-container .projects .project-thumbnails {
