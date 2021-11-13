@@ -29,11 +29,11 @@
 
 .projects > a:link {
   text-decoration: none;
-  color: blanchedalmond; }
+  color: #d1e8e2; }
 
 .projects > a:visited {
   text-decoration: none;
-  color: #ffcb9a; }
+  color: #d1e8e2; }
 
 @media screen and (max-width: 420px) {
   .project-thumbnails {

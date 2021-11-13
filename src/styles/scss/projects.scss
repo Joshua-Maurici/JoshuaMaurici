@@ -36,12 +36,12 @@
 
 .projects > a:link {
     text-decoration: none;
-    color: blanchedalmond;
+    color:#d1e8e2;
 }
 
 .projects > a:visited {
     text-decoration: none;
-    color: #ffcb9a;
+    color: #d1e8e2;
 }
 // .projects:hover {
 // }
@@ -52,7 +52,8 @@
 
 @media  screen and (max-width:420px) {
     .project-thumbnails{
-        width: 150px !important;
-        height: 150px !important;
-    }
+            width: 150px !important;
+            height: 150px !important;
+        }
 }
+

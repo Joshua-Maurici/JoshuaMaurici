@@ -19,7 +19,7 @@ html, body {
   .title-heading .name-title {
     color: #d1e8e2;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 8vw;
     margin: 15px 0 0 0; }
   .title-heading .dev-title {
     color: #d1e8e2;
@@ -55,7 +55,8 @@ footer {
     font-size: 2vh;
     margin: 0; }
   footer .resume {
-    font-size: 2vh; }
+    font-size: 3vh;
+    font-weight: bold; }
 
 .nav-index a:link {
   background-color: #116466;
@@ -78,14 +79,11 @@ footer {
   transition: 0.2s;
   transform: scale(1.5); }
 
-.resume a:link {
+.resume a:link, a:hover, a:active {
   color: #ffcb9a !important;
   text-decoration: none; }
 
 .resume a:visited {
-  color: #ffcb9a !important; }
-
-.resume a:active {
   color: #ffcb9a !important; }
 
 @media screen and (max-width: 420px) {
@@ -216,11 +214,11 @@ footer {
 
 .projects > a:link {
   text-decoration: none;
-  color: blanchedalmond; }
+  color: #d1e8e2; }
 
 .projects > a:visited {
   text-decoration: none;
-  color: #ffcb9a; }
+  color: #d1e8e2; }
 
 @media screen and (max-width: 420px) {
   .project-thumbnails {
@@ -333,5 +331,19 @@ footer {
 .project-pictures:hover {
   transition: 0.2s;
   transform: scale(1.4); }
+
+@media screen and (max-width: 420px) {
+  .project-page-container {
+    display: flex;
+    align-items: center; }
+    .project-page-container .project-pictures > img {
+      width: 60vw;
+      height: auto; }
+
+  .project-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 15px 0; } }
 
 /*# sourceMappingURL=main.css.map */

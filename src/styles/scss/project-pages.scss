@@ -44,3 +44,20 @@
     transform: scale(1.4);
     
 }
+
+@media screen and (max-width: 420px) {
+    .project-page-container {
+        display: flex;
+        align-items: center;
+            .project-pictures > img {
+            width: 60vw;
+            height: auto;
+        }
+    }
+    .project-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 0 15px 0;
+    }
+}

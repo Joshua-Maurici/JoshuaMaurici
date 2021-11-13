@@ -48,3 +48,9 @@
 .back-button:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 420px) {
+    .blog-container {
+        margin: 0 10%;
+    }
+}

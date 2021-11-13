@@ -19,7 +19,7 @@ html, body  {
         .name-title {
             color: #d1e8e2;
             font-weight: bold;
-            font-size: 100px;
+            font-size: 8vw;
             margin: 15px 0 0 0;
         }
         .dev-title {
@@ -63,7 +63,8 @@ footer {
         margin: 0;
     }
     .resume {
-        font-size: 2vh;
+        font-size: 3vh;
+        font-weight: bold;
     }
 }
 //navbar Link styling including hover function
@@ -89,16 +90,24 @@ footer {
     transform: scale(1.5);
 }    
 
-.resume a:link {
+.resume a:link, a:hover, a:active  {
     color: #ffcb9a !important;
     text-decoration: none;
 }
 .resume a:visited {
     color: #ffcb9a !important;
+//     animation-duration: 1.2s;
+//     animation-iteration-count: infinite;
 }
-.resume a:active {
-    color: #ffcb9a !important;
-}
+// @keyframes resume {
+//     0%{ color: red; }
+//     20%{ color: orange; }
+//     49%{ color: green; }
+//     60%{ color: blue; }
+//     99%{ color: indigo; }
+//     100%{ color: violet; }
+// }
+
 
 @media screen and (max-width: 420px) { 
     body {
