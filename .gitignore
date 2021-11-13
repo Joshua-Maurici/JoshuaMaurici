@@ -3,3 +3,6 @@
 *.sass.map
 *.scss.map
 *.code-workspace
+README.md
+docs/
+ppt/

@@ -33,13 +33,35 @@ html, body  {
 .home-nav-bar {
     font-size: 25px;
         nav {
-            height: 76vh;
+            height: 65vh;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
         }
 }
+//navbar Link styling including hover function
+.nav-index a:link{
+    background-color: #116466;
+    border-style: ridge;
+    border-radius: 10px;
+    color: #d1e8e2;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    padding: 1% 2% 1% 2%;
+}
+.nav-index a:visited {
+    text-decoration: none;
+    color: #d1e8e2;
+}
+.nav-index a:hover {
+    color: #ffcb9a;
+    border-color: #ffcb9a;
+    transition: 0.2s;
+    transform: scale(1.5);
+}    
 
 footer {
         display: flex;  
@@ -67,28 +89,7 @@ footer {
         font-weight: bold;
     }
 }
-//navbar Link styling including hover function
-.nav-index a:link{
-    background-color: #116466;
-    border-style: ridge;
-    border-radius: 10px;
-    color: #d1e8e2;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    width: 120px;
-    padding: 1% 2% 1% 2%;
-}
-.nav-index a:visited {
-    text-decoration: none;
-    color: #d1e8e2;
-}
-.nav-index a:hover {
-    color: #ffcb9a;
-    border-color: #ffcb9a;
-    transition: 0.2s;
-    transform: scale(1.5);
-}    
+
 
 .resume a:link, a:hover, a:active  {
     color: #ffcb9a !important;
