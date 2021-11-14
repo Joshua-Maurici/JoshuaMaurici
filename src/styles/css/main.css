@@ -42,6 +42,7 @@ html, body {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
+  color: white;
   width: 140px;
   padding: 1% 2% 1% 2%; }
 
@@ -250,6 +251,7 @@ footer {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
+  color: white;
   border-width: medium;
   font-size: x-large;
   width: 130px;
