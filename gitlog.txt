@@ -1,3 +1,9 @@
+commit a444a3e95688a7306d2744843150753af10833d9
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 14 23:44:46 2021 +1100
+
+    added mixins and varibles. Fixed resume broken link
+
 commit afcb50fc1d1384b54f38c024c5cd55e9c586c209
 Author: Joshua-Maurici <joshua.maurici93@gmail.com>
 Date:   Sun Nov 14 17:08:11 2021 +1100
