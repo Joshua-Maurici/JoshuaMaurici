@@ -1,4 +1,7 @@
-// @import "variables";
+// _files aren't compiled with sass. Note for future me.
+@import "./mixins";
+@import "./variables";
+
 
 @import "index";
 @import "about";
@@ -7,4 +10,5 @@
 @import "contact";
 @import "nav";
 @import "project-pages";
-@import "../css/blog-posts.css";
+@import "blog-posts";
+

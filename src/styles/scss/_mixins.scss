@@ -1,0 +1,42 @@
+// _mixins.scss
+
+
+
+//index.scss
+@mixin background {
+    background: rgb(17,100,102);
+    background: radial-gradient(circle, rgba(17,100,102,1) 0%, rgba(24,25,25,1) 87%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+// FlexBox Mixins
+@mixin flexColumn {
+    display:flex;
+    flex-direction:column;
+}
+@mixin flexCenterColumn {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexCenterColumnWrap {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+// Nav bar style
+@mixin navStyle {
+    background-color: #116466;
+    border-style: ridge;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}

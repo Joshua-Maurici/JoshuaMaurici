@@ -1,0 +1,306 @@
+commit afcb50fc1d1384b54f38c024c5cd55e9c586c209
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 14 17:08:11 2021 +1100
+
+    added sri to google fonts in index.html
+
+commit da71f4b480f229ff4a445969026a20738337d299
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 14 16:35:18 2021 +1100
+
+    added sri512 to main.css
+
+commit b0e040d10d8e081a5c1da09ee1524a9865bf338d
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 14 16:21:41 2021 +1100
+
+    commiting before adding SRI
+
+commit 4fd43b8e7543dd8dd90c821eec22a661c498384c
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 14 02:02:01 2021 +1100
+
+    added files to git ignore
+
+commit e3397041e344b046fd98a75bf60844b3b55741d3
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 14 00:38:36 2021 +1100
+
+    removed some text from blog.
+
+commit 0a502f7aa79b630130290bfb18ed14a3286cc3ba
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 22:28:04 2021 +1100
+
+    added project page pictures with styling. updated blog pic and social icon paths
+
+commit 217c35958bb508af27f4e05a68b1114921b5f543
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 19:37:17 2021 +1100
+
+    blog layout fixed in responsive design for smaller phones. 420px and below
+
+commit 0c37a430db2241fa05173bc18f8353655cf38325
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 16:31:49 2021 +1100
+
+    renamed img folder to images and relinked all files
+
+commit 6c2dd5b9a82bb831e7ff34b66621dce71a2ae586
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 16:21:53 2021 +1100
+
+    fixed nav-bar colours to diplsay as white
+
+commit 27ea11495326e6bac5d626f0cd571d298df49c6b
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 16:11:43 2021 +1100
+
+    made project thumbnails and text larger
+
+commit 0988e4369dcfe8be13b6e35cf6e02b21bf8b1b2f
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 14:19:45 2021 +1100
+
+    home page nav bar color issue. Changed the links to white
+
+commit b52bf27f92cc55e94014598dcfedcd8c8bf39205
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 13:12:06 2021 +1100
+
+    project page style fixed. should now scale with responsive design. Also checking that soical icons are pathed correctly
+
+commit aaeaa17a5a06247657777c998ecd3301134e4aca
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 13 13:11:00 2021 +1100
+
+    project page style fixed. should now scale with responsive design. Also checking that soical icons are pathed correctly
+
+commit 9776af7c0376098fa22053068441eed3d2721a14
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Fri Nov 12 20:47:35 2021 +1100
+
+    possible social icon path fixe for deployed site
+
+commit c161456a33665c97e746f8011d3b5d97be8a3516
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Nov 11 20:36:44 2021 +1100
+
+    fixed up resume code allowing for the link ot stay colored
+
+commit e3787dfd9d15cbc42c1fce434f45270dbd51cea2
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Nov 11 15:55:07 2021 +1100
+
+    re-linked social icons in footer again
+
+commit 3dcae508ea9645ec9a0154565a67716878658968
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Nov 11 15:32:34 2021 +1100
+
+    fixed broken social icons images
+
+commit 914ad05950fb37eaf3c125f6ab2a753c4b25fdc2
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Nov 11 09:26:21 2021 +1100
+
+    fixed pathing error with main.css files on the index page
+
+commit 8a84233d6de4334efb7c0b7403e0f240c1b58d03
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Nov 11 00:41:56 2021 +1100
+
+    added resume to footer
+
+commit 09aa34d155ae9f1918e74e5f4e9527e161fb7721
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 9 22:27:50 2021 +1100
+
+    added project pages 01 and 02. Filler image for now
+
+commit 8a4f472e8eaa69992a186598e48e9649ee0a97b9
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 9 22:25:26 2021 +1100
+
+    added DerBee img as filler content
+
+commit 4626b55a916ee0583eb89ac148a93e616b7c76ca
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 9 22:07:14 2021 +1100
+
+    added back button to blog pages to navigate to list of blogs.
+
+commit 2c37e6e295cb241559e2012ae12c16ba179496a2
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 9 20:43:00 2021 +1100
+
+    fix blog page layout to be more centered. also adjusted responsive design.
+
+commit 8a373f53f5e37c6fabbe9c8c3986030580c0ad83
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 7 23:48:20 2021 +1100
+
+    fixed about me page layout with phone sizing
+
+commit 314db3871542b4090f4ca11cf946e26b9874b19a
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 7 17:56:49 2021 +1100
+
+    added responsive design for mobile size
+
+commit 4e7c0a94d18e58dade62f8384ba524ed1a5508f6
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 7 04:36:47 2021 +1100
+
+    re-commit
+
+commit 2f49543b0b589878c69dd5b01beb302de62f1b71
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 7 04:27:57 2021 +1100
+
+    added a highlight when page is selected in the nav bar
+
+commit 35273d4d5a7b5bf2ffce3e83c5c2d5ef00b1c07b
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 7 03:22:53 2021 +1100
+
+    added navigation animation and styling
+
+commit d397be0b17a981a81e13c9118eb4a0fc21905b87
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Nov 7 02:45:51 2021 +1100
+
+    added social icons to footer. blog pages also added with content and numbered accordingly.
+
+commit a84b6875363547b8e90a2ac7782b12cdd01b9a1f
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Nov 6 16:54:42 2021 +1100
+
+     added blank blog html pages
+
+commit 4a8b13ad2a7e708fa388a57d6b05ff367bfc6c43
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Fri Nov 5 18:14:15 2021 +1100
+
+    fixed backdrop blur so that it doesent adjust background size while also encompassing entire screen.
+
+commit 514527600df3940e0832d0f675e5d8342db92d5e
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Fri Nov 5 17:45:16 2021 +1100
+
+    re-adding all htmls. was not pushed in last commit
+
+commit f055ac3ec0564f03dbf438f7453c7ffdd53c4a63
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Fri Nov 5 17:43:20 2021 +1100
+
+    added blog page and content
+
+commit c59f079b53d04244d2dcb6e2156cdc7fee82517c
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 2 14:10:07 2021 +1100
+
+    added form on contact page
+
+commit 6361a3ca5f30159fc8489dae238b2d7b9c56339e
+Merge: 0f90bc6 1bff6a3
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 2 03:20:59 2021 +1100
+
+    Merge branch 'main' of https://github.com/Joshua-Maurici/JoshuaMaurici into main
+
+commit 0f90bc622dcb859d444898964e2ccfa6c01361a0
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Tue Nov 2 03:19:23 2021 +1100
+
+    home, about, projects content added
+
+commit 1bff6a380edfda898aeda02291a7e6a555d61ca6
+Author: Joshua-Maurici <70106243+Joshua-Maurici@users.noreply.github.com>
+Date:   Mon Nov 1 17:26:13 2021 +1100
+
+    Delete src/.sass-cache/a3717a29ef30581792db697c8e03b166d22c9066 directory
+
+commit 3f26122de503d5422d9fad750fac69bac44a7bfa
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Mon Nov 1 17:24:05 2021 +1100
+
+    adding missing files from last commit
+
+commit 7bf63894ff67989662393c8b828a01ae964aa043
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Mon Nov 1 17:22:58 2021 +1100
+
+    re adding all files with .gitignore removing unessecary files
+
+commit 1f14e8100552a7a28887ab6393fffdc12535e255
+Author: Joshua-Maurici <70106243+Joshua-Maurici@users.noreply.github.com>
+Date:   Mon Nov 1 17:15:41 2021 +1100
+
+    Delete .sass-cache/da60428a9bf465363d7d784be312baa87791e07c directory
+
+commit 4fb54992ae79d6fbbaa939af3bd020490fcd2fbd
+Author: Joshua-Maurici <70106243+Joshua-Maurici@users.noreply.github.com>
+Date:   Mon Nov 1 17:15:20 2021 +1100
+
+    Update .gitignore
+
+commit 6210e2990173ddd7d2ceea7a7227962dcf31818b
+Author: Joshua-Maurici <70106243+Joshua-Maurici@users.noreply.github.com>
+Date:   Mon Nov 1 17:14:01 2021 +1100
+
+    Create .gitignore
+
+commit f3e6f7a4bf27f0b7fa0e88b2842fdb172fe01733
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Mon Nov 1 16:07:15 2021 +1100
+
+    added variable scss
+
+commit 20dbf494ddc293b94a7812bcfafe51119d72df8c
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Oct 31 00:54:00 2021 +1100
+
+    adding all html pages
+
+commit 3408bbe5a1d8d56c09f33ac0ffb5a71a8947401a
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sun Oct 31 00:52:10 2021 +1100
+
+    blocked out the about me page's css
+
+commit 0db255852d195154a43cd3a66f7c6a9288ccca65
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Oct 30 20:49:33 2021 +1100
+
+    added code for the basic layout for  each page
+
+commit db4c73a33fc9c8a891629d308f54405d41b116d7
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Oct 30 18:58:35 2021 +1100
+
+    added nav bar to all pages
+
+commit 72f33d9bdbc5981170623cf9c84eea0e0eb2130e
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Sat Oct 30 17:19:37 2021 +1100
+
+    blocked out index page
+
+commit 280621b50fe55e633cca9aa7c71a501600123948
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Oct 28 15:54:14 2021 +1100
+
+    added index.html
+
+commit b9260f17866d4a971b3912254db2164a1eda0656
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Oct 28 15:50:16 2021 +1100
+
+    deleted test file
+
+commit 035564801c59d2af0c9227bf844bd6d3a90ed215
+Author: Joshua-Maurici <joshua.maurici93@gmail.com>
+Date:   Thu Oct 28 15:49:19 2021 +1100
+
+    initial commit

@@ -7,11 +7,11 @@
     align-items: center;
     h2 {
        margin: auto;
-       color: #d1e8e2;
+       color: var($lightGreen);
        font-size: 5vw; 
     }
     h5, p{
-        color: #d9b08c;
+        color: $yellow;
         text-align:justify;
         margin: 0 0 20px 0;
     }
@@ -34,7 +34,7 @@
     background-color: #678788;
     border-style: ridge;
     border-radius: 5px;
-    border-color: #d1e8e2;
+    border-color: $lightGreen;
     border-width: medium;
     text-decoration: none;
     text-align: center;

@@ -1,49 +1,73 @@
-.nav-bar {
-  margin-bottom: 5%; }
-  .nav-bar nav {
-    height: 5%;
-    margin-bottom: 1.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
+/*
+Error: Undefined mixin 'navStyle'.
+        on line 19 of scss/nav.scss, in `navStyle'
+        from line 19 of scss/nav.scss
 
-.nav-bar a.active {
-  color: #ffcb9a;
-  border-color: #ffcb9a;
-  box-shadow: 2px 4px 6px #ffcb9a; }
+14:     border-color: #ffcb9a;
+15:     box-shadow: 2px 4px 6px #ffcb9a;
+16: }
+17: 
+18: .nav-bar a:link{
+19:     @include navStyle;
+20:     border-width: medium;
+21:     font-size: x-large;
+22:     width: 130px;
+23:     padding: 1vh 2vh 1vh 2vh;
+24: }
 
-.nav-bar a:link {
-  background-color: #116466;
-  border-style: ridge;
-  border-radius: 10px;
-  border-color: #d1e8e2;
-  border-width: medium;
-  text-decoration: none;
-  color: #d1e8e2;
-  text-align: center;
-  font-weight: bold;
-  font-size: x-large;
-  width: 130px;
-  padding: 1vh 2vh 1vh 2vh; }
-
-.nav-bar a:visited {
-  text-decoration: none;
-  color: #d1e8e2; }
-
-.nav-bar a:hover {
-  color: #ffcb9a;
-  border-color: #ffcb9a;
-  transition: 0.2s;
-  transform: scale(1.2); }
-
-@media screen and (max-width: 420px) {
-  .nav-bar nav {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-
-  nav a {
-    margin-bottom: 5px; } }
-
-/*# sourceMappingURL=nav.css.map */
+Backtrace:
+scss/nav.scss:19:in `navStyle'
+scss/nav.scss:19
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:440:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:294:in `watch'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:109:in `method_missing'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:354:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'navStyle'.\A         on line 19 of scss/nav.scss, in `navStyle'\A         from line 19 of scss/nav.scss\A \A 14:     border-color: #ffcb9a;\A 15:     box-shadow: 2px 4px 6px #ffcb9a;\A 16: }\A 17: \A 18: .nav-bar a:link{\A 19:     @include navStyle;\A 20:     border-width: medium;\A 21:     font-size: x-large;\A 22:     width: 130px;\A 23:     padding: 1vh 2vh 1vh 2vh;\A 24: }"; }

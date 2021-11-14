@@ -1,102 +1,73 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'Roboto', sans-serif;
-  background: #116466;
-  background: radial-gradient(circle, #116466 0%, #181919 87%);
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+/*
+Error: Undefined mixin 'background'.
+        on line 7 of scss/index.scss, in `background'
+        from line 7 of scss/index.scss
 
-.title-heading {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px; }
-  .title-heading .name-title {
-    color: #d1e8e2;
-    font-weight: bold;
-    font-size: 8vw;
-    margin: 15px 0 0 0; }
-  .title-heading .dev-title {
-    color: #d1e8e2;
-    font-weight: bold;
-    font-size: 3vw;
-    margin: 0 0 10px 0; }
+2:     margin:0;
+3:     padding:0;
+4:     height:100vh;
+5:     width: 100vw;
+6:     font-family: 'Roboto', sans-serif;
+7:     @include background;
+8: }
+9: 
+10: .title-heading {
+11:     @include flexColumn;
+12:     justify-content: center;
 
-.home-nav-bar {
-  font-size: 25px; }
-  .home-nav-bar nav {
-    height: 65vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center; }
-
-.nav-index a:link {
-  background-color: #116466;
-  border-style: ridge;
-  border-radius: 10px;
-  color: #d1e8e2;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  width: 120px;
-  padding: 1% 2% 1% 2%; }
-
-.nav-index a:visited {
-  text-decoration: none;
-  color: #d1e8e2; }
-
-.nav-index a:hover {
-  color: #ffcb9a;
-  border-color: #ffcb9a;
-  transition: 0.2s;
-  transform: scale(1.5); }
-
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; }
-  footer .social-icons {
-    margin: 0 0 0 5%; }
-  footer .social-icons img {
-    background: #d1e8e2;
-    border-style: solid;
-    border-color: #d1e8e2;
-    border-radius: 5px;
-    height: 4vh; }
-  footer .copyright {
-    display: flex;
-    justify-content: flex-end;
-    color: #d1e8e2;
-    font-size: 2vh;
-    margin: 0; }
-  footer .resume {
-    font-size: 3vh;
-    font-weight: bold; }
-
-.resume a:link, a:hover, a:active {
-  color: #ffcb9a !important;
-  text-decoration: none; }
-
-.resume a:visited {
-  color: #ffcb9a !important; }
-
-@media screen and (max-width: 420px) {
-  body {
-    margin: 0;
-    padding: 0; }
-
-  .title-heading {
-    margin-bottom: 0; }
-    .title-heading .name-title {
-      font-size: 10vw; }
-
-  h2 {
-    display: flex;
-    flex-direction: column; } }
-
-/*# sourceMappingURL=index.css.map */
+Backtrace:
+scss/index.scss:7:in `background'
+scss/index.scss:7
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:440:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:294:in `watch'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:109:in `method_missing'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:354:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'background'.\A         on line 7 of scss/index.scss, in `background'\A         from line 7 of scss/index.scss\A \A 2:     margin:0;\A 3:     padding:0;\A 4:     height:100vh;\A 5:     width: 100vw;\A 6:     font-family: 'Roboto', sans-serif;\A 7:     @include background;\A 8: }\A 9: \A 10: .title-heading {\A 11:     @include flexColumn;\A 12:     justify-content: center;"; }

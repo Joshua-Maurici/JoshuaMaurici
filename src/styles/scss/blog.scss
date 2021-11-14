@@ -1,15 +1,14 @@
 #blog-heading {
-    margin: 0;
-    color: white;
     display: flex;
     justify-content: center;
+    margin: 0;
+    color: white;
     font-size: 10vh;
 }
 #blog-posts {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
     margin-bottom: 5%;
     .blog-titles {
         width: 60%;
@@ -36,15 +35,14 @@
 }
 
 #blog-posts a:hover {
-    color:#ffcb9a;
+    color:$yellow;
 }
 
 @media screen and (max-width: 420px) {
     #blog-posts {
         margin-top: 10%;
         .blog-titles {
-            display:flex;
-            flex-direction: column;
+            @include flexColumn;
             margin: 0;
         }
         a:link {
@@ -52,6 +50,14 @@
             padding: 0;
         }
     }
+}
+
+@media screen and (min-width:421px) and (max-width: 700px) {
+    #blog-posts {
+        .blog-titles {
+            margin: 0;
+        }
     }
+}
     
 

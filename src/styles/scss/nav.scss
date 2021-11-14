@@ -16,15 +16,8 @@
 }
 
 .nav-bar a:link{
-    background-color: #116466;
-    border-style: ridge;
-    border-radius: 10px;
-    border-color: #d1e8e2;
+    @include navStyle;
     border-width: medium;
-    text-decoration: none;
-    color: #d1e8e2;
-    text-align: center;
-    font-weight: bold;
     font-size: x-large;
     width: 130px;
     padding: 1vh 2vh 1vh 2vh;
@@ -48,5 +41,13 @@
     }
     nav a {
         margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:421px) {
+    .nav-bar a:link {
+            width: 100px;
+            font-size: small;
+        
     }
 }
