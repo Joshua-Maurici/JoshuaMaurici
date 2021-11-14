@@ -1,4 +1,3 @@
-
 #projects-title {
     margin: 0;
     color: white;
@@ -7,7 +6,6 @@
     font-size: 10vh;
     font-weight: bold;
 }
-
 .project-container {
     display:flex;
     flex-flow: row wrap;
@@ -31,24 +29,16 @@
             text-align: center;
         }
     } 
-
 }
 
 .projects > a:link {
     text-decoration: none;
     color:#d1e8e2;
 }
-
 .projects > a:visited {
     text-decoration: none;
     color: #d1e8e2;
 }
-// .projects:hover {
-// }
-// .projects:active {
-// }
-
-
 
 @media  screen and (max-width:420px) {
     .project-thumbnails{

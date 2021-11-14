@@ -16,7 +16,6 @@
         border-color: rgb(95, 93, 91);
         border-radius: 10px;
     }
-
 }
 
 .project-heading {
@@ -31,18 +30,9 @@
     justify-content: center;
     margin: 0 61vw 1% 0;
 }  
-
-// .project-heading > h1 {
-//     display: flex;
-//     justify-content: center;
-//     color: #d9b08c;
-//     text-shadow: 5% 10% black;
-// }
-
 .project-pictures:hover {
     transition: 0.2s;
     transform: scale(1.4);
-    
 }
 
 @media screen and (max-width: 420px) {

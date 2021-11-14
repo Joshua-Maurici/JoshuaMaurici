@@ -30,17 +30,12 @@
         margin: 5%; 
         font-size: 2vh;
     }
-
 }   
-
-
-
 
 @media screen and (max-width: 420px) {
     .about-container {
         display:flex;
         flex-direction:column; 
-        
             .about-content {
                 margin: 0 0 5% 0; 
                 display: flex;
@@ -51,8 +46,5 @@
                 height: 40%;
                 width: 60%
             }
-            // p {
-                
-            // }
     }
 }
