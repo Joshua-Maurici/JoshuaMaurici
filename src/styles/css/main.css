@@ -334,7 +334,7 @@ footer {
   align-items: center; }
   .blog-container h2 {
     margin: auto;
-    color: var(#d1e8e2);
+    color: #d1e8e2;
     font-size: 5vw; }
   .blog-container h5, .blog-container p {
     color: #ffcb9a;
